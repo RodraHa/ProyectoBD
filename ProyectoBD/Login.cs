@@ -14,7 +14,7 @@ namespace ProyectoBD
     public partial class Login : Form
     {
         public static String user = "postgres";
-        public static String password = "eeee2003";
+        public static String password = "";
         public static String connectionString = $"Server=localhost;Port=5432;User Id={user};Password={password};Database=dvdrental";
         private String placeholder;
 
